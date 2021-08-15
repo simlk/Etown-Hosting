@@ -1,1 +1,1 @@
-<a href="index.html">Click here to visit my about page!</a>
+<a href="https://github.com/simlk/Etown-Hosting/blob/main/index.html">Link</a>
