@@ -1,1 +1,1 @@
-<a href="https://github.com/simlk/Etown-Hosting/blob/main/index.html">Link</a>
+<a href="https://rawgit.com/simlk/Etown-Hosting/blob/main/index.html">Link</a>
