@@ -1,4 +1,45 @@
 <!DOCTYPE html>
-<header>
-  HI
-</header>
+<head>
+  <link rel="stylesheet" href="hosting.css">
+  <script>
+    function change_tab(id)
+    {
+      document.getElementById("page_content").innerHTML=document.getElementById(id+"_desc").innerHTML;
+      document.getElementById("restaurant").className="notselected";
+      document.getElementById("patio").className="notselected";
+      document.getElementById("waitlist").className="notselected";
+      document.getElementById(id).className="selected";
+    }
+  </script>
+</head>
+<body>
+  <div id="main_content">
+    
+    <li class="selected" id="restaurant" onclick="change_tab(this.id);">Restaurant</li>
+    <li class="notselected" id="patio" onclick="change_tab(this.id);">Patio</li>
+    <li class="notselected" id="waitlist" onclick="change_tab(this.id);">Waitlist</li>
+    
+    <div class="hidden_desc" id="restaurant_desc">
+      <h2>Restaurant</h2>
+      PLACEHOLDER
+    </div>
+    
+    <div class="hidden_desc" id="patio_desc">
+      <h2>Patio</h2>
+      PLACEHOLDER
+    </div>
+    
+    <div class="hidden_desc" id="waitlist_desc">
+      <h2>Waitlist</h2>
+      PLACEHOLDER
+    </div>
+    
+    <div id="page_content">
+      <h2>Restaurant</h2>
+      PLACEHOLDER
+    </div>
+    
+  </div>
+</body>
+</html>
+
