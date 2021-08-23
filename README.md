@@ -1,1 +1,1 @@
-<a href="https://lmckeever.github.io/Etown-Hosting/blob/main/index.html">Link</a>
+<a href="https://simlk.github.io/Etown-Hosting/">Link</a>
