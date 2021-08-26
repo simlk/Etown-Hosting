@@ -71,6 +71,22 @@ h1 p
   margin: 4px 2px;
 }
 
+.square {
+  background-color: white;
+  border:none;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.rectangle {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  height: 50px;
+  width: 70px;
+}
+
 .buttonsq {border-radius: 4px; height: 50px; width: 50px;}
 .buttonrect {border-radius: 4px; height: 50px; width: 70px;}
   
